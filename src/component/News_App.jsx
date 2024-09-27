@@ -13,6 +13,7 @@ export const News_App = () => {
     useEffect(() => {
         getdata()
 
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
     const handleData = (e) => {
         setsearch(e.target.value);
